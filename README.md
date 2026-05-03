@@ -1,59 +1,65 @@
 <h1 align="center">
-  <b>Tiago Uriel Raminelli</b>
+  Tiago Uriel Raminelli
 </h1>
 
-¡Hola! Soy **Tiago**, desarrollador web full-stack de Argentina 🇦🇷  
-Apasionado por crear soluciones tecnológicas a medida para optimizar procesos y potenciar negocios.  
-Actualmente trabajo con **PHP (Laravel)**, **Blade**, **MySQL** y herramientas modernas de desarrollo.
+<p align="center">
+  Full-Stack Web Developer
+</p>
+
+<p align="center">
+  Argentina
+</p>
+
+---
+
+Desarrollador web full-stack enfocado en la creación de soluciones tecnológicas para optimizar procesos, mejorar la gestión operativa y aportar valor a negocios y organizaciones.
+
+Experiencia trabajando con aplicaciones web modernas utilizando PHP, Laravel, Blade, MySQL y tecnologías frontend actuales. Interés en el desarrollo de sistemas administrativos, herramientas empresariales y software orientado a automatización y productividad.
+
+Actualmente complementando el perfil técnico con formación en Gestión de las Organizaciones, incorporando conocimientos en administración, contabilidad y procesos empresariales.
 
 <br>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-PHP-4F5B93?style=for-the-badge&logo=php&logoColor=white&labelColor=282828">
-  <img src="https://img.shields.io/badge/-Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=282828">
-  <img src="https://img.shields.io/badge/-MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white&labelColor=282828">
-  <img src="https://img.shields.io/badge/-React-61DBFB?style=for-the-badge&logo=react&logoColor=61DBFB&labelColor=282828">
-  <img src="https://img.shields.io/badge/-Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=282828">
-  <img src="https://img.shields.io/badge/-Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white&labelColor=282828">
-  <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=282828">
-  <img src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=282828">
+  <img src="https://img.shields.io/badge/PHP-4F5B93?style=for-the-badge&logo=php&logoColor=white">
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+  <img src="https://img.shields.io/badge/Blade-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </p>
 
 ```php
-class TiagoRaminelli {
-    
-  public function __construct() {
-    $this->name = "Tiago Uriel Raminelli";
-    $this->username = "TiagoRaminelli";
-    $this->location = "Argentina";
-    $this->portfolio = "https://github.com/TiagoRaminelli";
-  }
+class TiagoRaminelli
+{
+    public string $name = "Tiago Uriel Raminelli";
+    public string $role = "Full-Stack Web Developer";
+    public string $location = "Argentina";
 
-  public function __toString() {
-    return $this->name;
-  }
+    public array $stack = [
+        "PHP",
+        "Laravel",
+        "Blade",
+        "MySQL",
+        "React",
+        "Node.js"
+    ];
+
+    public function portfolio(): string
+    {
+        return "https://github.com/TiagoRaminelli";
+    }
 }
-
-$me = new TiagoRaminelli();
 ```
 
-<!-- CONTACTO -->
-<h3 align="center">🌐 Conectemos</h3>
+## Contacto
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/tiago-raminelli/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn - Tiago Raminelli" height="30" width="40" />
-  </a>
-  <a href="https://x.com/raminellitiago" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Twitter - @raminellitiago" height="30" width="40" />
-  </a>
-  <a href="https://www.instagram.com/tiago_raminelli/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram - tiago_raminelli" height="30" width="40" />
-  </a>
-  <a href="mailto:tiagoraminelli@gmail.com" target="_blank">
-    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Email - tiagoraminelli@gmail.com" height="30" width="40" />
-  </a>
-  <a href="https://discord.com/users/devi8758" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="Discord - devi8758" height="30" width="40" />
-  </a>
+<p align="left">
+  <a href="https://www.linkedin.com/in/tiago-raminelli/" target="_blank">LinkedIn</a> •
+  <a href="https://github.com/TiagoRaminelli" target="_blank">GitHub</a> •
+  <a href="mailto:tiagoraminelli@gmail.com">Email</a> •
+  <a href="https://x.com/raminellitiago" target="_blank">X</a> •
+  <a href="https://www.instagram.com/tiago_raminelli/" target="_blank">Instagram</a>
 </p>
