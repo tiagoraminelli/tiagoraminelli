@@ -1,74 +1,78 @@
-<h1 align="center">
-  Tiago Uriel Raminelli
-</h1>
+<div align="center">
+  <h1>Tiago Uriel Raminelli</h1>
+  <p>Desarrollador de Software Full Stack & Analista de Sistemas de Gestión</p>
+  <p>San Cristóbal, Santa Fe, Argentina</p>
 
-<p align="center">
-  PHP Developer | Laravel & Symfony Developer
-</p>
-
-<p align="center">
-  Argentina
-</p>
+  <a href="https://www.linkedin.com/in/tiago-raminelli/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:tiagoraminelli@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/tiagoraminelli">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+</div>
 
 ---
 
-Desarrollador web especializado en la construcción de aplicaciones empresariales, sistemas administrativos y herramientas orientadas a la optimización de procesos.
+### Sobre mí
 
-Experiencia en el desarrollo de soluciones web utilizando PHP, Laravel, Symfony, MySQL y tecnologías frontend modernas. Enfoque en la creación de software mantenible, escalable y alineado con las necesidades operativas de las organizaciones.
+Desarrollador de Software enfocado en la arquitectura de sistemas administrativos, ERPs, soluciones contables y herramientas de gestión operativa.
 
-Actualmente cursando la Tecnicatura Superior en Gestión de las Organizaciones, incorporando conocimientos en administración, contabilidad, análisis de procesos y gestión empresarial para complementar el perfil técnico con una visión integral del negocio.
+Mi perfil combina una sólida base técnica en ingeniería de software con formación en Gestión de las Organizaciones. Esto me permite traducir necesidades de negocio complejas (contabilidad, auditoría, logística, regulación del sector público y procesos operativos) en sistemas eficientes, mantenibles y escalables.
 
-## Tecnologías
+Especialidad: Arquitectura backend robusta con PHP (Laravel y Symfony) e interfaces dinámicas.
+Visión de Negocio: Análisis de procesos empresariales, sistemas contables/financieros y normativas operativas.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white">
-  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
-  <img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
-  <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-</p>
+---
+
+### Stack Tecnológico
+
+Backend y Bases de Datos
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![Livewire](https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=livewire&logoColor=white)
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+Frontend y Diseño UI
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+Herramientas y Entorno
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&logo=xampp&logoColor=white)
+
+---
+
+### Clase de Perfil
 
 ```php
-class Developer
+namespace Desarrollador;
+
+class TiagoRaminelli extends DesarrolladorFullStack
 {
-    public string $name = "Tiago Uriel Raminelli";
-
-    public array $specialization = [
-        "PHP",
-        "Laravel",
-        "Symfony",
-        "MySQL"
-    ];
-
-    public array $frontend = [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React",
-        "Bootstrap"
-    ];
-
-    public array $tools = [
-        "Git",
-        "GitHub",
-        "Composer",
-        "Linux"
-    ];
-
-    public function focus(): string
+    public function obtenerHabilidadesClave(): array
     {
-        return "Business Applications & Process Optimization";
+        return [
+            'backend'            => ['PHP 8.x', 'Laravel', 'Symfony', 'MySQL', 'APIs REST'],
+            'frontend'           => ['Livewire', 'JavaScript (ES6+)', 'Tailwind CSS', 'Bootstrap 5'],
+            'dominio_de_negocio' => [
+                'Sistemas de Información Empresarial (MIS)',
+                'Modelado de Procesos de Negocio',
+                'Contabilidad y Logística Financiera',
+                'Flujos de Administración Pública'
+            ]
+        ];
+    }
+
+    public function obtenerEnfoqueActual(): string
+    {
+        return "Desarrollo de ERPs a medida, plataformas administrativas y herramientas de optimización.";
     }
 }
-```
-
-## Contact
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/tiago-raminelli/" target="_blank">LinkedIn</a> •
-  <a href="https://github.com/TiagoRaminelli" target="_blank">GitHub</a> •
-  <a href="mailto:tiagoraminelli@gmail.com">Email</a>
-</p>
