@@ -88,11 +88,10 @@ Development of **management systems, ERP applications and administrative softwar
 
 ## Education
 
-**Técnico Superior en Desarrollo de Software**
+**Higher Technical Degree in Software Development** — *Graduated*
 Escuela Normal Superior N.º 40 "Mariano Moreno" · 2022–2025
 
-**Técnico Superior en Gestión de las Organizaciones**
+**Higher Technical Degree in Business Management** — *In Progress*
 Escuela Normal Superior N.º 40 "Mariano Moreno" · 2024–2026
 
----
 
