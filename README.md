@@ -81,9 +81,11 @@ Development of **management systems, ERP applications and administrative softwar
 ![GitHub Desktop](https://img.shields.io/badge/GitHub%20Desktop-8034A9?style=for-the-badge&logo=github&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
 ![Composer](https://img.shields.io/badge/Composer-885630?style=for-the-badge\&logo=composer\&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge\&logo=cisco\&logoColor=white)
 ![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge\&logo=xampp\&logoColor=white)
-
 ---
 
 ## Education
